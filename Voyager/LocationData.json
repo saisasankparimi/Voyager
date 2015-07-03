@@ -1,0 +1,25 @@
+
+
+[
+ {
+ "id": 1,
+ "locationName": "White House",
+ "locationImage": "whiteHouse.jpeg",
+ "latitude": "38.8977",
+ "longitude" : "-77.0366"
+ },
+ {
+ "id": 2,
+ "locationName": "The Pentagon",
+ "locationImage": "pentagon.jpeg",
+ "latitude": "38.8710",
+ "longitude" : "-77.0560"
+ },
+ {
+ "id": 3,
+ "locationName": "Library of Congress",
+ "locationImage": "libraryOfCongress.jpeg",
+ "latitude": "38.8886",
+ "longitude" : "-77.0047"
+ }
+]

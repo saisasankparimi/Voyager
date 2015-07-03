@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C67A8ABB1B2D68680079DBAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A8ABA1B2D68680079DBAA /* AppDelegate.swift */; };
+		C67A8ABD1B2D68680079DBAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A8ABC1B2D68680079DBAA /* ViewController.swift */; };
+		C67A8AC01B2D68680079DBAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C67A8ABE1B2D68680079DBAA /* Main.storyboard */; };
+		C67A8AC21B2D68680079DBAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67A8AC11B2D68680079DBAA /* Images.xcassets */; };
+		C67A8AC51B2D68680079DBAA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C67A8AC31B2D68680079DBAA /* LaunchScreen.xib */; };
+		C67A8AD11B2D68680079DBAA /* VoyagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A8AD01B2D68680079DBAA /* VoyagerTests.swift */; };
+		C67A8ADB1B2D6A0A0079DBAA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67A8ADA1B2D6A0A0079DBAA /* MapKit.framework */; };
+		C67A8ADF1B2D6D7F0079DBAA /* CollectionViewTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A8ADE1B2D6D7F0079DBAA /* CollectionViewTableCell.swift */; };
+		C67A8AE41B2D71ED0079DBAA /* libraryOfCongress.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C67A8AE11B2D71ED0079DBAA /* libraryOfCongress.jpeg */; };
+		C67A8AE51B2D71ED0079DBAA /* pentagon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C67A8AE21B2D71ED0079DBAA /* pentagon.jpeg */; };
+		C67A8AE61B2D71ED0079DBAA /* whiteHouse.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C67A8AE31B2D71ED0079DBAA /* whiteHouse.jpeg */; };
+		C67A8AE81B2D90770079DBAA /* LocationData.json in Resources */ = {isa = PBXBuildFile; fileRef = C67A8AE71B2D90770079DBAA /* LocationData.json */; };
+		C67A8AEA1B2D91470079DBAA /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A8AE91B2D91470079DBAA /* Location.swift */; };
+		C67A8AED1B2D922F0079DBAA /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A8AEC1B2D922F0079DBAA /* SwiftyJSON.swift */; };
+		C67A8AF01B2D99040079DBAA /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A8AEF1B2D99040079DBAA /* API.swift */; };
+		C67A8AF21B2DC01E0079DBAA /* empty_tip.png in Resources */ = {isa = PBXBuildFile; fileRef = C67A8AF11B2DC01E0079DBAA /* empty_tip.png */; };
+		C67A8AF61B2DC0490079DBAA /* empty_tip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C67A8AF51B2DC0490079DBAA /* empty_tip@2x.png */; };
+		C67A8AF81B2DC0620079DBAA /* Icn_Location_Tip.png in Resources */ = {isa = PBXBuildFile; fileRef = C67A8AF71B2DC0620079DBAA /* Icn_Location_Tip.png */; };
+		C67A8AFA1B2DC0690079DBAA /* Icn_Location_Tip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C67A8AF91B2DC0690079DBAA /* Icn_Location_Tip@2x.png */; };
+		C67A8AFD1B2DC18D0079DBAA /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A8AFC1B2DC18D0079DBAA /* CustomAnnotation.swift */; };
+		C67A8AFF1B2DCB6E0079DBAA /* Path.png in Resources */ = {isa = PBXBuildFile; fileRef = C67A8AFE1B2DCB6E0079DBAA /* Path.png */; };
+		C67A8B011B2DCB730079DBAA /* Path@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C67A8B001B2DCB730079DBAA /* Path@2x.png */; };
+		C69BA0A81B465A7E00F5DBD0 /* mapannotation.png in Resources */ = {isa = PBXBuildFile; fileRef = C69BA0A71B465A7E00F5DBD0 /* mapannotation.png */; };
+		C69BA0AA1B465A8B00F5DBD0 /* mapannotation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C69BA0A91B465A8B00F5DBD0 /* mapannotation@2x.png */; };
+		C6B9B2531B451DA700E23C55 /* DistanceCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9B2521B451DA700E23C55 /* DistanceCalculator.swift */; };
+		C6B9B2581B4523C400E23C55 /* Preloader 01.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B9B2541B4523C400E23C55 /* Preloader 01.png */; };
+		C6B9B2591B4523C400E23C55 /* Preloader 02.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B9B2551B4523C400E23C55 /* Preloader 02.png */; };
+		C6B9B25A1B4523C400E23C55 /* Preloader 03.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B9B2561B4523C400E23C55 /* Preloader 03.png */; };
+		C6B9B25B1B4523C400E23C55 /* Preloader 04.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B9B2571B4523C400E23C55 /* Preloader 04.png */; };
+		C6B9B2601B4523DD00E23C55 /* Preloader 01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B9B25C1B4523DD00E23C55 /* Preloader 01@2x.png */; };
+		C6B9B2611B4523DD00E23C55 /* Preloader 02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B9B25D1B4523DD00E23C55 /* Preloader 02@2x.png */; };
+		C6B9B2621B4523DD00E23C55 /* Preloader 03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B9B25E1B4523DD00E23C55 /* Preloader 03@2x.png */; };
+		C6B9B2631B4523DD00E23C55 /* Preloader 04@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B9B25F1B4523DD00E23C55 /* Preloader 04@2x.png */; };
+		C6B9B2651B45385400E23C55 /* DirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9B2641B45385400E23C55 /* DirectionsViewController.swift */; };
+		C6B9B2691B454E8700E23C55 /* noun_12590_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B9B2681B454E8700E23C55 /* noun_12590_cc.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C67A8ACB1B2D68680079DBAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C67A8AAD1B2D68680079DBAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67A8AB41B2D68680079DBAA;
+			remoteInfo = Voyager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C67A8AB51B2D68680079DBAA /* Voyager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voyager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67A8AB91B2D68680079DBAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C67A8ABA1B2D68680079DBAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C67A8ABC1B2D68680079DBAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C67A8ABF1B2D68680079DBAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C67A8AC11B2D68680079DBAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C67A8AC41B2D68680079DBAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C67A8ACA1B2D68680079DBAA /* VoyagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoyagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67A8ACF1B2D68680079DBAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C67A8AD01B2D68680079DBAA /* VoyagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyagerTests.swift; sourceTree = "<group>"; };
+		C67A8ADA1B2D6A0A0079DBAA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C67A8ADE1B2D6D7F0079DBAA /* CollectionViewTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewTableCell.swift; sourceTree = "<group>"; };
+		C67A8AE11B2D71ED0079DBAA /* libraryOfCongress.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = libraryOfCongress.jpeg; sourceTree = "<group>"; };
+		C67A8AE21B2D71ED0079DBAA /* pentagon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pentagon.jpeg; sourceTree = "<group>"; };
+		C67A8AE31B2D71ED0079DBAA /* whiteHouse.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whiteHouse.jpeg; sourceTree = "<group>"; };
+		C67A8AE71B2D90770079DBAA /* LocationData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LocationData.json; sourceTree = "<group>"; };
+		C67A8AE91B2D91470079DBAA /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		C67A8AEC1B2D922F0079DBAA /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		C67A8AEF1B2D99040079DBAA /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		C67A8AF11B2DC01E0079DBAA /* empty_tip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empty_tip.png; sourceTree = "<group>"; };
+		C67A8AF51B2DC0490079DBAA /* empty_tip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "empty_tip@2x.png"; sourceTree = "<group>"; };
+		C67A8AF71B2DC0620079DBAA /* Icn_Location_Tip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icn_Location_Tip.png; sourceTree = "<group>"; };
+		C67A8AF91B2DC0690079DBAA /* Icn_Location_Tip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icn_Location_Tip@2x.png"; sourceTree = "<group>"; };
+		C67A8AFC1B2DC18D0079DBAA /* CustomAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		C67A8AFE1B2DCB6E0079DBAA /* Path.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Path.png; sourceTree = "<group>"; };
+		C67A8B001B2DCB730079DBAA /* Path@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Path@2x.png"; sourceTree = "<group>"; };
+		C69BA0A71B465A7E00F5DBD0 /* mapannotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapannotation.png; sourceTree = "<group>"; };
+		C69BA0A91B465A8B00F5DBD0 /* mapannotation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mapannotation@2x.png"; sourceTree = "<group>"; };
+		C6B9B2521B451DA700E23C55 /* DistanceCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistanceCalculator.swift; sourceTree = "<group>"; };
+		C6B9B2541B4523C400E23C55 /* Preloader 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Preloader 01.png"; sourceTree = "<group>"; };
+		C6B9B2551B4523C400E23C55 /* Preloader 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Preloader 02.png"; sourceTree = "<group>"; };
+		C6B9B2561B4523C400E23C55 /* Preloader 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Preloader 03.png"; sourceTree = "<group>"; };
+		C6B9B2571B4523C400E23C55 /* Preloader 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Preloader 04.png"; sourceTree = "<group>"; };
+		C6B9B25C1B4523DD00E23C55 /* Preloader 01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Preloader 01@2x.png"; sourceTree = "<group>"; };
+		C6B9B25D1B4523DD00E23C55 /* Preloader 02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Preloader 02@2x.png"; sourceTree = "<group>"; };
+		C6B9B25E1B4523DD00E23C55 /* Preloader 03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Preloader 03@2x.png"; sourceTree = "<group>"; };
+		C6B9B25F1B4523DD00E23C55 /* Preloader 04@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Preloader 04@2x.png"; sourceTree = "<group>"; };
+		C6B9B2641B45385400E23C55 /* DirectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsViewController.swift; sourceTree = "<group>"; };
+		C6B9B2681B454E8700E23C55 /* noun_12590_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noun_12590_cc.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C67A8AB21B2D68680079DBAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67A8ADB1B2D6A0A0079DBAA /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67A8AC71B2D68680079DBAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C67A8AAC1B2D68680079DBAA = {
+			isa = PBXGroup;
+			children = (
+				C67A8ADA1B2D6A0A0079DBAA /* MapKit.framework */,
+				C67A8AB71B2D68680079DBAA /* Voyager */,
+				C67A8ACD1B2D68680079DBAA /* VoyagerTests */,
+				C67A8AB61B2D68680079DBAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C67A8AB61B2D68680079DBAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C67A8AB51B2D68680079DBAA /* Voyager.app */,
+				C67A8ACA1B2D68680079DBAA /* VoyagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C67A8AB71B2D68680079DBAA /* Voyager */ = {
+			isa = PBXGroup;
+			children = (
+				C67A8AF41B2DC02E0079DBAA /* Resources */,
+				C67A8AEE1B2D92400079DBAA /* Libraries */,
+				C67A8AEB1B2D91E00079DBAA /* Models */,
+				C67A8ADD1B2D6C170079DBAA /* Controllers */,
+				C67A8ADC1B2D6C0A0079DBAA /* Table Cells/Collection Cells */,
+				C67A8ABA1B2D68680079DBAA /* AppDelegate.swift */,
+				C67A8ABE1B2D68680079DBAA /* Main.storyboard */,
+				C67A8AC11B2D68680079DBAA /* Images.xcassets */,
+				C67A8AC31B2D68680079DBAA /* LaunchScreen.xib */,
+				C67A8AB81B2D68680079DBAA /* Supporting Files */,
+				C67A8AE71B2D90770079DBAA /* LocationData.json */,
+				C67A8AEF1B2D99040079DBAA /* API.swift */,
+			);
+			path = Voyager;
+			sourceTree = "<group>";
+		};
+		C67A8AB81B2D68680079DBAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C67A8AB91B2D68680079DBAA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C67A8ACD1B2D68680079DBAA /* VoyagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C67A8AD01B2D68680079DBAA /* VoyagerTests.swift */,
+				C67A8ACE1B2D68680079DBAA /* Supporting Files */,
+			);
+			path = VoyagerTests;
+			sourceTree = "<group>";
+		};
+		C67A8ACE1B2D68680079DBAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C67A8ACF1B2D68680079DBAA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C67A8ADC1B2D6C0A0079DBAA /* Table Cells/Collection Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C67A8ADE1B2D6D7F0079DBAA /* CollectionViewTableCell.swift */,
+			);
+			name = "Table Cells/Collection Cells";
+			sourceTree = "<group>";
+		};
+		C67A8ADD1B2D6C170079DBAA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C67A8ABC1B2D68680079DBAA /* ViewController.swift */,
+				C6B9B2641B45385400E23C55 /* DirectionsViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C67A8AE01B2D71D10079DBAA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C69BA0A71B465A7E00F5DBD0 /* mapannotation.png */,
+				C6B9B2681B454E8700E23C55 /* noun_12590_cc.png */,
+				C6B9B2541B4523C400E23C55 /* Preloader 01.png */,
+				C6B9B2551B4523C400E23C55 /* Preloader 02.png */,
+				C6B9B2561B4523C400E23C55 /* Preloader 03.png */,
+				C6B9B2571B4523C400E23C55 /* Preloader 04.png */,
+				C67A8AFE1B2DCB6E0079DBAA /* Path.png */,
+				C67A8AF71B2DC0620079DBAA /* Icn_Location_Tip.png */,
+				C67A8AF11B2DC01E0079DBAA /* empty_tip.png */,
+				C67A8AE11B2D71ED0079DBAA /* libraryOfCongress.jpeg */,
+				C67A8AE21B2D71ED0079DBAA /* pentagon.jpeg */,
+				C67A8AE31B2D71ED0079DBAA /* whiteHouse.jpeg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C67A8AEB1B2D91E00079DBAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C67A8AE91B2D91470079DBAA /* Location.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C67A8AEE1B2D92400079DBAA /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				C67A8AEC1B2D922F0079DBAA /* SwiftyJSON.swift */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		C67A8AF31B2DC0240079DBAA /* Images@2x */ = {
+			isa = PBXGroup;
+			children = (
+				C69BA0A91B465A8B00F5DBD0 /* mapannotation@2x.png */,
+				C6B9B25C1B4523DD00E23C55 /* Preloader 01@2x.png */,
+				C6B9B25D1B4523DD00E23C55 /* Preloader 02@2x.png */,
+				C6B9B25E1B4523DD00E23C55 /* Preloader 03@2x.png */,
+				C6B9B25F1B4523DD00E23C55 /* Preloader 04@2x.png */,
+				C67A8B001B2DCB730079DBAA /* Path@2x.png */,
+				C67A8AF91B2DC0690079DBAA /* Icn_Location_Tip@2x.png */,
+				C67A8AF51B2DC0490079DBAA /* empty_tip@2x.png */,
+			);
+			name = "Images@2x";
+			sourceTree = "<group>";
+		};
+		C67A8AF41B2DC02E0079DBAA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C67A8AFB1B2DC1740079DBAA /* Support Files */,
+				C67A8AE01B2D71D10079DBAA /* Images */,
+				C67A8AF31B2DC0240079DBAA /* Images@2x */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C67A8AFB1B2DC1740079DBAA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6B9B2521B451DA700E23C55 /* DistanceCalculator.swift */,
+				C67A8AFC1B2DC18D0079DBAA /* CustomAnnotation.swift */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C67A8AB41B2D68680079DBAA /* Voyager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67A8AD41B2D68680079DBAA /* Build configuration list for PBXNativeTarget "Voyager" */;
+			buildPhases = (
+				C67A8AB11B2D68680079DBAA /* Sources */,
+				C67A8AB21B2D68680079DBAA /* Frameworks */,
+				C67A8AB31B2D68680079DBAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Voyager;
+			productName = Voyager;
+			productReference = C67A8AB51B2D68680079DBAA /* Voyager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C67A8AC91B2D68680079DBAA /* VoyagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67A8AD71B2D68680079DBAA /* Build configuration list for PBXNativeTarget "VoyagerTests" */;
+			buildPhases = (
+				C67A8AC61B2D68680079DBAA /* Sources */,
+				C67A8AC71B2D68680079DBAA /* Frameworks */,
+				C67A8AC81B2D68680079DBAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C67A8ACC1B2D68680079DBAA /* PBXTargetDependency */,
+			);
+			name = VoyagerTests;
+			productName = VoyagerTests;
+			productReference = C67A8ACA1B2D68680079DBAA /* VoyagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C67A8AAD1B2D68680079DBAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Sasank;
+				TargetAttributes = {
+					C67A8AB41B2D68680079DBAA = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C67A8AC91B2D68680079DBAA = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = C67A8AB41B2D68680079DBAA;
+					};
+				};
+			};
+			buildConfigurationList = C67A8AB01B2D68680079DBAA /* Build configuration list for PBXProject "Voyager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C67A8AAC1B2D68680079DBAA;
+			productRefGroup = C67A8AB61B2D68680079DBAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C67A8AB41B2D68680079DBAA /* Voyager */,
+				C67A8AC91B2D68680079DBAA /* VoyagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C67A8AB31B2D68680079DBAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B9B2691B454E8700E23C55 /* noun_12590_cc.png in Resources */,
+				C67A8AFF1B2DCB6E0079DBAA /* Path.png in Resources */,
+				C6B9B2611B4523DD00E23C55 /* Preloader 02@2x.png in Resources */,
+				C67A8AE41B2D71ED0079DBAA /* libraryOfCongress.jpeg in Resources */,
+				C6B9B2581B4523C400E23C55 /* Preloader 01.png in Resources */,
+				C6B9B2631B4523DD00E23C55 /* Preloader 04@2x.png in Resources */,
+				C67A8AC01B2D68680079DBAA /* Main.storyboard in Resources */,
+				C69BA0A81B465A7E00F5DBD0 /* mapannotation.png in Resources */,
+				C6B9B25A1B4523C400E23C55 /* Preloader 03.png in Resources */,
+				C67A8AE61B2D71ED0079DBAA /* whiteHouse.jpeg in Resources */,
+				C67A8AF81B2DC0620079DBAA /* Icn_Location_Tip.png in Resources */,
+				C67A8AF21B2DC01E0079DBAA /* empty_tip.png in Resources */,
+				C6B9B2591B4523C400E23C55 /* Preloader 02.png in Resources */,
+				C6B9B2601B4523DD00E23C55 /* Preloader 01@2x.png in Resources */,
+				C67A8AE51B2D71ED0079DBAA /* pentagon.jpeg in Resources */,
+				C67A8AFA1B2DC0690079DBAA /* Icn_Location_Tip@2x.png in Resources */,
+				C67A8AC51B2D68680079DBAA /* LaunchScreen.xib in Resources */,
+				C67A8AF61B2DC0490079DBAA /* empty_tip@2x.png in Resources */,
+				C69BA0AA1B465A8B00F5DBD0 /* mapannotation@2x.png in Resources */,
+				C67A8AC21B2D68680079DBAA /* Images.xcassets in Resources */,
+				C67A8AE81B2D90770079DBAA /* LocationData.json in Resources */,
+				C6B9B2621B4523DD00E23C55 /* Preloader 03@2x.png in Resources */,
+				C67A8B011B2DCB730079DBAA /* Path@2x.png in Resources */,
+				C6B9B25B1B4523C400E23C55 /* Preloader 04.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67A8AC81B2D68680079DBAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C67A8AB11B2D68680079DBAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B9B2531B451DA700E23C55 /* DistanceCalculator.swift in Sources */,
+				C67A8ABD1B2D68680079DBAA /* ViewController.swift in Sources */,
+				C67A8ADF1B2D6D7F0079DBAA /* CollectionViewTableCell.swift in Sources */,
+				C67A8AEA1B2D91470079DBAA /* Location.swift in Sources */,
+				C67A8AED1B2D922F0079DBAA /* SwiftyJSON.swift in Sources */,
+				C67A8AF01B2D99040079DBAA /* API.swift in Sources */,
+				C67A8ABB1B2D68680079DBAA /* AppDelegate.swift in Sources */,
+				C6B9B2651B45385400E23C55 /* DirectionsViewController.swift in Sources */,
+				C67A8AFD1B2DC18D0079DBAA /* CustomAnnotation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67A8AC61B2D68680079DBAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67A8AD11B2D68680079DBAA /* VoyagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C67A8ACC1B2D68680079DBAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67A8AB41B2D68680079DBAA /* Voyager */;
+			targetProxy = C67A8ACB1B2D68680079DBAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C67A8ABE1B2D68680079DBAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C67A8ABF1B2D68680079DBAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C67A8AC31B2D68680079DBAA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C67A8AC41B2D68680079DBAA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C67A8AD21B2D68680079DBAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C67A8AD31B2D68680079DBAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C67A8AD51B2D68680079DBAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Voyager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C67A8AD61B2D68680079DBAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Voyager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C67A8AD81B2D68680079DBAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VoyagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voyager.app/Voyager";
+			};
+			name = Debug;
+		};
+		C67A8AD91B2D68680079DBAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VoyagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voyager.app/Voyager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C67A8AB01B2D68680079DBAA /* Build configuration list for PBXProject "Voyager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67A8AD21B2D68680079DBAA /* Debug */,
+				C67A8AD31B2D68680079DBAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C67A8AD41B2D68680079DBAA /* Build configuration list for PBXNativeTarget "Voyager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67A8AD51B2D68680079DBAA /* Debug */,
+				C67A8AD61B2D68680079DBAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C67A8AD71B2D68680079DBAA /* Build configuration list for PBXNativeTarget "VoyagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67A8AD81B2D68680079DBAA /* Debug */,
+				C67A8AD91B2D68680079DBAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C67A8AAD1B2D68680079DBAA /* Project object */;
+}
