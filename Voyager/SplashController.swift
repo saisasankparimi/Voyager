@@ -2,7 +2,7 @@
 //  SplashController.swift
 //  Voyager
 //
-//  Created by Adarsh Kolluru on 7/7/15.
+//  Created by Sai Sasank Parimi on 7/7/15.
 //  Copyright (c) 2015 Sasank. All rights reserved.
 //
 
