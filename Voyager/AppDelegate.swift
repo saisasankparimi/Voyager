@@ -16,6 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+         var storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        var rootController = storyboard.instantiateViewControllerWithIdentifier("SplashController") as! SplashController
+        self.window?.rootViewController = rootController
+        
+         UINavigationBar.appearance().barTintColor = UIColor(red: 248/255.0, green: 248/255.0, blue: 248/255.0, alpha: 1.0)
+        
         return true
     }
 

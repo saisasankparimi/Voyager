@@ -83,7 +83,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
                             var tipImage = "Icn_Location_Tip.png"
                             self.annotationImages.append(tipImage)
                             
-                            var waitImage = "Path.png"
+                            var waitImage = "Icn_Location_Tip Copy.png"
                             self.presentAnnotationImage.append(waitImage)
                         }
                         
@@ -147,10 +147,16 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             // rounded border for view
             
             let view = cell.cssView
-            view.backgroundColor = UIColor( red: 235/255, green: 244/255, blue: 255/255, alpha: 1)
-            view.layer.cornerRadius = 5
-            view.layer.borderColor = UIColor( red: 235/255, green: 244/255, blue: 255/255, alpha: 1).CGColor
-            view.layer.borderWidth = 0.5
+//            view.backgroundColor = UIColor( red: 235/255, green: 244/255, blue: 255/255, alpha: 1)
+//            view.layer.cornerRadius = 5
+//            view.layer.borderColor = UIColor( red: 235/255, green: 244/255, blue: 255/255, alpha: 1).CGColor
+//            view.layer.borderWidth = 0.5
+            
+                        view.backgroundColor = UIColor(red: 248/255.0, green: 248/255.0, blue: 248/255.0, alpha: 1.0)
+                        view.layer.cornerRadius = 5
+                        view.layer.borderColor = UIColor( red: 248/255.0, green: 248/255.0, blue: 248/255.0, alpha: 1.0).CGColor
+                        view.layer.borderWidth = 0.5
+            
             
             cell.latitude = locationObj.getLatitude()
             cell.longitude = locationObj.getLongitude()

@@ -5,7 +5,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Voyager-->
+        <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Voyager" customModuleProvider="target" sceneMemberID="viewController">
@@ -137,8 +137,29 @@
                             <constraint firstItem="wHh-A7-Jeb" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="xIF-7u-pY3"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Voyager" id="qrm-Vv-zc1">
+                    <navigationItem key="navigationItem" id="qrm-Vv-zc1">
+                        <nil key="title"/>
                         <barButtonItem key="backBarButtonItem" title=" " id="E4V-n6-g4m"/>
+                        <view key="titleView" contentMode="scaleToFill" id="5ST-ZF-re2">
+                            <rect key="frame" x="96" y="6" width="128" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="EzX-AT-ubZ">
+                                    <rect key="frame" x="48" y="0.0" width="33" height="33"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="33" id="22d-Me-fHr"/>
+                                        <constraint firstAttribute="height" constant="33" id="c3o-ut-JMX"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="EzX-AT-ubZ" secondAttribute="bottom" id="0gd-36-F9o"/>
+                                <constraint firstItem="EzX-AT-ubZ" firstAttribute="top" secondItem="5ST-ZF-re2" secondAttribute="top" id="EQT-kg-XIV"/>
+                                <constraint firstAttribute="centerY" secondItem="EzX-AT-ubZ" secondAttribute="centerY" id="Ocj-Bi-WCw"/>
+                                <constraint firstAttribute="centerX" secondItem="EzX-AT-ubZ" secondAttribute="centerX" id="kX9-Fn-mLf"/>
+                            </constraints>
+                        </view>
                     </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="wHh-A7-Jeb" id="WkQ-bc-FX8"/>
@@ -147,7 +168,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="338" y="295"/>
+            <point key="canvasLocation" x="126" y="304"/>
         </scene>
         <!--Directions View Controller-->
         <scene sceneID="sn8-2q-GcV">
@@ -176,21 +197,37 @@
                             <constraint firstItem="kVP-I4-dCr" firstAttribute="top" secondItem="hGl-oJ-SmH" secondAttribute="top" id="yUj-qR-5QE"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="W2m-Sd-TMO">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="eD2-4e-Gez"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="W2m-Sd-TMO"/>
                     <connections>
                         <outlet property="routeMapView" destination="kVP-I4-dCr" id="AyI-xL-7I2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="me6-fW-AjQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="748" y="300"/>
+            <point key="canvasLocation" x="473" y="304"/>
+        </scene>
+        <!--Splash Controller-->
+        <scene sceneID="yPS-dB-foC">
+            <objects>
+                <viewController storyboardIdentifier="SplashController" id="TdG-AL-rrS" customClass="SplashController" customModule="Voyager" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Eho-rF-lc7"/>
+                        <viewControllerLayoutGuide type="bottom" id="CPM-qw-8bm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iGg-DN-On7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7YW-tf-ElR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-770" y="304"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Kky-mP-ZFO">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zXa-KF-dDs" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="NavController" automaticallyAdjustsScrollViewInsets="NO" id="zXa-KF-dDs" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="yh7-65-eca">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -203,10 +240,11 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VTQ-f6-lrS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-15" y="295"/>
+            <point key="canvasLocation" x="-236" y="295"/>
         </scene>
     </scenes>
     <resources>
+        <image name="logo.png" width="138" height="138"/>
         <image name="noun_12590_cc.png" width="700" height="700"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

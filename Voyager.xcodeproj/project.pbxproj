@@ -11,7 +11,6 @@
 		C67A8ABD1B2D68680079DBAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A8ABC1B2D68680079DBAA /* ViewController.swift */; };
 		C67A8AC01B2D68680079DBAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C67A8ABE1B2D68680079DBAA /* Main.storyboard */; };
 		C67A8AC21B2D68680079DBAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67A8AC11B2D68680079DBAA /* Images.xcassets */; };
-		C67A8AC51B2D68680079DBAA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C67A8AC31B2D68680079DBAA /* LaunchScreen.xib */; };
 		C67A8AD11B2D68680079DBAA /* VoyagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A8AD01B2D68680079DBAA /* VoyagerTests.swift */; };
 		C67A8ADB1B2D6A0A0079DBAA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67A8ADA1B2D6A0A0079DBAA /* MapKit.framework */; };
 		C67A8ADF1B2D6D7F0079DBAA /* CollectionViewTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A8ADE1B2D6D7F0079DBAA /* CollectionViewTableCell.swift */; };
@@ -29,6 +28,14 @@
 		C67A8AFD1B2DC18D0079DBAA /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A8AFC1B2DC18D0079DBAA /* CustomAnnotation.swift */; };
 		C67A8AFF1B2DCB6E0079DBAA /* Path.png in Resources */ = {isa = PBXBuildFile; fileRef = C67A8AFE1B2DCB6E0079DBAA /* Path.png */; };
 		C67A8B011B2DCB730079DBAA /* Path@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C67A8B001B2DCB730079DBAA /* Path@2x.png */; };
+		C682888E1B4BD05700FA7EDE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C682888D1B4BD05700FA7EDE /* icon.png */; };
+		C68288901B4BD06600FA7EDE /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C682888F1B4BD06600FA7EDE /* icon@2x.png */; };
+		C68288921B4BD5D000FA7EDE /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68288911B4BD5D000FA7EDE /* SplashController.swift */; };
+		C68288941B4BDD8C00FA7EDE /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C68288931B4BDD8C00FA7EDE /* Launch Screen.xib */; };
+		C68288961B4C04ED00FA7EDE /* Icn_Location_Tip Copy.png in Resources */ = {isa = PBXBuildFile; fileRef = C68288951B4C04ED00FA7EDE /* Icn_Location_Tip Copy.png */; };
+		C68288981B4C04FB00FA7EDE /* Icn_Location_Tip Copy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C68288971B4C04FB00FA7EDE /* Icn_Location_Tip Copy@2x.png */; };
+		C682889E1B4C0D3300FA7EDE /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C682889D1B4C0D3300FA7EDE /* logo@2x.png */; };
+		C68288A01B4C0D3A00FA7EDE /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C682889F1B4C0D3A00FA7EDE /* logo.png */; };
 		C69BA0A81B465A7E00F5DBD0 /* mapannotation.png in Resources */ = {isa = PBXBuildFile; fileRef = C69BA0A71B465A7E00F5DBD0 /* mapannotation.png */; };
 		C69BA0AA1B465A8B00F5DBD0 /* mapannotation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C69BA0A91B465A8B00F5DBD0 /* mapannotation@2x.png */; };
 		C6B9B2531B451DA700E23C55 /* DistanceCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9B2521B451DA700E23C55 /* DistanceCalculator.swift */; };
@@ -61,7 +68,6 @@
 		C67A8ABC1B2D68680079DBAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C67A8ABF1B2D68680079DBAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C67A8AC11B2D68680079DBAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C67A8AC41B2D68680079DBAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C67A8ACA1B2D68680079DBAA /* VoyagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoyagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67A8ACF1B2D68680079DBAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C67A8AD01B2D68680079DBAA /* VoyagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyagerTests.swift; sourceTree = "<group>"; };
@@ -81,6 +87,14 @@
 		C67A8AFC1B2DC18D0079DBAA /* CustomAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
 		C67A8AFE1B2DCB6E0079DBAA /* Path.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Path.png; sourceTree = "<group>"; };
 		C67A8B001B2DCB730079DBAA /* Path@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Path@2x.png"; sourceTree = "<group>"; };
+		C682888D1B4BD05700FA7EDE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		C682888F1B4BD06600FA7EDE /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		C68288911B4BD5D000FA7EDE /* SplashController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		C68288931B4BDD8C00FA7EDE /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		C68288951B4C04ED00FA7EDE /* Icn_Location_Tip Copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icn_Location_Tip Copy.png"; sourceTree = "<group>"; };
+		C68288971B4C04FB00FA7EDE /* Icn_Location_Tip Copy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icn_Location_Tip Copy@2x.png"; sourceTree = "<group>"; };
+		C682889D1B4C0D3300FA7EDE /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		C682889F1B4C0D3A00FA7EDE /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		C69BA0A71B465A7E00F5DBD0 /* mapannotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapannotation.png; sourceTree = "<group>"; };
 		C69BA0A91B465A8B00F5DBD0 /* mapannotation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mapannotation@2x.png"; sourceTree = "<group>"; };
 		C6B9B2521B451DA700E23C55 /* DistanceCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistanceCalculator.swift; sourceTree = "<group>"; };
@@ -145,10 +159,10 @@
 				C67A8ABA1B2D68680079DBAA /* AppDelegate.swift */,
 				C67A8ABE1B2D68680079DBAA /* Main.storyboard */,
 				C67A8AC11B2D68680079DBAA /* Images.xcassets */,
-				C67A8AC31B2D68680079DBAA /* LaunchScreen.xib */,
 				C67A8AB81B2D68680079DBAA /* Supporting Files */,
 				C67A8AE71B2D90770079DBAA /* LocationData.json */,
 				C67A8AEF1B2D99040079DBAA /* API.swift */,
+				C68288931B4BDD8C00FA7EDE /* Launch Screen.xib */,
 			);
 			path = Voyager;
 			sourceTree = "<group>";
@@ -191,6 +205,7 @@
 			children = (
 				C67A8ABC1B2D68680079DBAA /* ViewController.swift */,
 				C6B9B2641B45385400E23C55 /* DirectionsViewController.swift */,
+				C68288911B4BD5D000FA7EDE /* SplashController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -198,6 +213,9 @@
 		C67A8AE01B2D71D10079DBAA /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				C682889F1B4C0D3A00FA7EDE /* logo.png */,
+				C68288951B4C04ED00FA7EDE /* Icn_Location_Tip Copy.png */,
+				C682888D1B4BD05700FA7EDE /* icon.png */,
 				C69BA0A71B465A7E00F5DBD0 /* mapannotation.png */,
 				C6B9B2681B454E8700E23C55 /* noun_12590_cc.png */,
 				C6B9B2541B4523C400E23C55 /* Preloader 01.png */,
@@ -233,6 +251,9 @@
 		C67A8AF31B2DC0240079DBAA /* Images@2x */ = {
 			isa = PBXGroup;
 			children = (
+				C682889D1B4C0D3300FA7EDE /* logo@2x.png */,
+				C68288971B4C04FB00FA7EDE /* Icn_Location_Tip Copy@2x.png */,
+				C682888F1B4BD06600FA7EDE /* icon@2x.png */,
 				C69BA0A91B465A8B00F5DBD0 /* mapannotation@2x.png */,
 				C6B9B25C1B4523DD00E23C55 /* Preloader 01@2x.png */,
 				C6B9B25D1B4523DD00E23C55 /* Preloader 02@2x.png */,
@@ -346,13 +367,17 @@
 			files = (
 				C6B9B2691B454E8700E23C55 /* noun_12590_cc.png in Resources */,
 				C67A8AFF1B2DCB6E0079DBAA /* Path.png in Resources */,
+				C682889E1B4C0D3300FA7EDE /* logo@2x.png in Resources */,
 				C6B9B2611B4523DD00E23C55 /* Preloader 02@2x.png in Resources */,
+				C68288961B4C04ED00FA7EDE /* Icn_Location_Tip Copy.png in Resources */,
 				C67A8AE41B2D71ED0079DBAA /* libraryOfCongress.jpeg in Resources */,
 				C6B9B2581B4523C400E23C55 /* Preloader 01.png in Resources */,
 				C6B9B2631B4523DD00E23C55 /* Preloader 04@2x.png in Resources */,
 				C67A8AC01B2D68680079DBAA /* Main.storyboard in Resources */,
+				C68288A01B4C0D3A00FA7EDE /* logo.png in Resources */,
 				C69BA0A81B465A7E00F5DBD0 /* mapannotation.png in Resources */,
 				C6B9B25A1B4523C400E23C55 /* Preloader 03.png in Resources */,
+				C68288941B4BDD8C00FA7EDE /* Launch Screen.xib in Resources */,
 				C67A8AE61B2D71ED0079DBAA /* whiteHouse.jpeg in Resources */,
 				C67A8AF81B2DC0620079DBAA /* Icn_Location_Tip.png in Resources */,
 				C67A8AF21B2DC01E0079DBAA /* empty_tip.png in Resources */,
@@ -360,11 +385,13 @@
 				C6B9B2601B4523DD00E23C55 /* Preloader 01@2x.png in Resources */,
 				C67A8AE51B2D71ED0079DBAA /* pentagon.jpeg in Resources */,
 				C67A8AFA1B2DC0690079DBAA /* Icn_Location_Tip@2x.png in Resources */,
-				C67A8AC51B2D68680079DBAA /* LaunchScreen.xib in Resources */,
+				C68288981B4C04FB00FA7EDE /* Icn_Location_Tip Copy@2x.png in Resources */,
+				C68288901B4BD06600FA7EDE /* icon@2x.png in Resources */,
 				C67A8AF61B2DC0490079DBAA /* empty_tip@2x.png in Resources */,
 				C69BA0AA1B465A8B00F5DBD0 /* mapannotation@2x.png in Resources */,
 				C67A8AC21B2D68680079DBAA /* Images.xcassets in Resources */,
 				C67A8AE81B2D90770079DBAA /* LocationData.json in Resources */,
+				C682888E1B4BD05700FA7EDE /* icon.png in Resources */,
 				C6B9B2621B4523DD00E23C55 /* Preloader 03@2x.png in Resources */,
 				C67A8B011B2DCB730079DBAA /* Path@2x.png in Resources */,
 				C6B9B25B1B4523C400E23C55 /* Preloader 04.png in Resources */,
@@ -391,6 +418,7 @@
 				C67A8AEA1B2D91470079DBAA /* Location.swift in Sources */,
 				C67A8AED1B2D922F0079DBAA /* SwiftyJSON.swift in Sources */,
 				C67A8AF01B2D99040079DBAA /* API.swift in Sources */,
+				C68288921B4BD5D000FA7EDE /* SplashController.swift in Sources */,
 				C67A8ABB1B2D68680079DBAA /* AppDelegate.swift in Sources */,
 				C6B9B2651B45385400E23C55 /* DirectionsViewController.swift in Sources */,
 				C67A8AFD1B2DC18D0079DBAA /* CustomAnnotation.swift in Sources */,
@@ -422,14 +450,6 @@
 				C67A8ABF1B2D68680079DBAA /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C67A8AC31B2D68680079DBAA /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C67A8AC41B2D68680079DBAA /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
